@@ -2,7 +2,7 @@ const sneakers = [
   {
     name: "Air Max 270",
     price: "$150",
-    image: "image/am270.png",
+    image: "images/am270.png",
     description: "The Nike Air Max 270 features Nike's biggest heel Air unit yet for a super-soft ride.",
     color: "#ff6b6b",
     gradient: "linear-gradient(135deg, #ff6b6b, #f06595)",
@@ -32,7 +32,7 @@ const sneakers = [
   {
     name: "Jordan 1 Retro",
     price: "$170",
-    image: "image/jd1retro.png",
+    image: "images/jd1retro.png",
     description: "The Air Jordan 1 Retro High OG brings back the classic silhouette.",
     color: "#1e3a8a",
     gradient: "linear-gradient(135deg, #1e3a8a, #3b82f6)",
@@ -62,7 +62,7 @@ const sneakers = [
   {
     name: "Adidas Ultraboost",
     price: "$180",
-    image: "image/ultraboost.png",
+    image: "images/ultraboost.png",
     description: "Experience endless energy with every step. BOOST midsole and Primeknit upper.",
     color: "#10b981",
     gradient: "linear-gradient(135deg, #10b981, #34d399)",
@@ -92,7 +92,7 @@ const sneakers = [
   {
     name: "Vans Old Skool",
     price: "$65",
-    image: "image/vans.png",
+    image: "images/vans.png",
     description: "The iconic Vans Old Skool with the classic side stripe and waffle outsole.",
     color: "#f59e0b",
     gradient: "linear-gradient(135deg, #f59e0b, #fbbf24)",
@@ -122,7 +122,7 @@ const sneakers = [
   {
     name: "Converse Chuck 70",
     price: "$85",
-    image: "image/chucktaylor.png",
+    image: "images/chucktaylor.png",
     description: "The Chuck Taylor All Star '70 is a vintage-inspired take on the classic design.",
     color: "#6d28d9",
     gradient: "linear-gradient(135deg, #6d28d9, #a78bfa)",
