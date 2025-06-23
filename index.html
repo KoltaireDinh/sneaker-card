@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sneaker Collection</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background-image" id="backgroundImage"></div>
+  <div class="background-overlay" id="backgroundOverlay"></div>
+  
+  <div class="container">
+    <div class="card" id="card">
+      <div class="card-main">
+        <h2 class="sneaker-name" id="sneakerName"></h2>
+        <div class="sneaker-image" id="imageContainer">
+          <img id="sneakerImage" src="" alt="Sneaker Image" />
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <div class="price" id="sneakerPrice"></div>
+        <button id="likeBtn" class="like-btn">♥</button>
+        <div class="navigation">
+          <button class="nav-btn" id="prevBtn">‹</button>
+          <div class="indicator" id="indicator"></div>
+          <button class="nav-btn" id="nextBtn">›</button>
+        </div>
+        <div class="sneaker-description" id="sneakerDescription"></div>
+      </div>
+      
+      <div class="card-details" id="cardDetails">
+        <div class="details-section">
+          <h3 class="details-title">Product Details</h3>
+          <div class="details-content" id="productDetails"></div>
+        </div>
+        
+        <div class="details-section">
+          <h3 class="details-title">Specifications</h3>
+          <ul class="specs-list" id="specsList"></ul>
+        </div>
+        
+        <div class="details-section">
+          <h3 class="details-title">Rating</h3>
+          <div class="rating">
+            <span class="stars" id="ratingStars"></span>
+            <span class="details-content" id="ratingText"></span>
+          </div>
+        </div>
+        
+        <div class="details-section">
+          <h3 class="details-title">Features</h3>
+          <div class="details-content" id="featuresList"></div>
+        </div>
+      </div>
+      
+      <button class="expand-btn" id="expandBtn">
+        <span>⌄</span>
+      </button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
